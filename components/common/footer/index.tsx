@@ -1,9 +1,5 @@
 import Link from "next/link";
-
-const navigation = [
-  { name: "Blogs", href: "/blogs" },
-  { name: "Portfolio", href: "/portfolios" },
-];
+import { navigation } from "../navbar/navigation";
 
 const socialLinks = [
   {
