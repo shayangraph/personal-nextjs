@@ -5,8 +5,7 @@ import Image from "next/image";
 
 import { Footer, Header, Navbar } from "@/components/common";
 import { BlogList } from "@/components/blogs";
-
-
+import { PortfolioList } from "@/components/portfolios";
 
 const Home: NextPage = () => {
   return (
@@ -40,7 +39,6 @@ const Home: NextPage = () => {
             </Link>
           </h2>
           <BlogList />
-
           <br></br>
           <h2 className="text-2xl font-bold tracking-tight text-gray-900">
             Portfolios
@@ -48,9 +46,7 @@ const Home: NextPage = () => {
               <a className="text-sm ml-1 text-indigo-600">(See All)</a>
             </Link>
           </h2>
-          {/* Portfolio List Starts */}
-        
-          {/* Portfolio List Ends */}
+          <PortfolioList />
         </div>
       </div>
       <Footer />
